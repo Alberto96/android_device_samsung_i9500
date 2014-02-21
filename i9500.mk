@@ -165,6 +165,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=131072 \
     wifi.interface=wlan0
 
+# TWRP
+PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/configs/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
