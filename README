@@ -2,4 +2,7 @@ Copyright 2013 - The CyanogenMod Project
 
 Device configuration for Samsung Galaxy S4 (GT-I9500)
 
-OmniROM Test Repo
+OmniROM Test Repo 
+
+22/01/2014 => Not Booting (Exynos Camera causes bootloop due to missing "acquire_dvfs_lock" symbol)
+
